@@ -7,7 +7,7 @@ public class GitStudy {
 		System.out.println("Learning Git Throughly");
 	}
 		else {
-			System.out.println("Learn git next day");
+			System.out.println("Learn git next day else you will fail");
 		}
 	}
 
