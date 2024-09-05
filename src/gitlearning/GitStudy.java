@@ -1,13 +1,17 @@
 package gitlearning;
 
+import java.util.Scanner;
+
 public class GitStudy {
 	public static void main(String[] args) {
-		String mood = "happy";
-		if(mood == "happy") {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter your mood details as happy or sad");
+		String mood= s.next();
+		if(mood.contentEquals("happy")) {
 		System.out.println("Learning Git Throughly");
 	}
 		else {
-			System.out.println("Learn git next day else you will fail");
+			System.out.println("Learn git another day");
 		}
 	}
 
