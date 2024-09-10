@@ -14,13 +14,7 @@ public class GitStudy {
 			System.out.println("I am sad will learn git another day");
 			System.out.println("MC");
 		}
-		else {
-<<<<<<< HEAD
-			System.out.println("You have entered wrong input, rerun the application");
-=======
-			System.out.println("sleep");
->>>>>>> parent of 4358c79 (modified the git msg)
+		
 		}
 	}
 
-}
